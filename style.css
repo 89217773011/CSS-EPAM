@@ -1,0 +1,187 @@
+a {
+    text-decoration: none;
+}
+
+/* ------------------------ */
+
+.header_top {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    background-color: #39c2d7;
+}
+.logo{
+    display: flex;
+    margin: 0 0 0 15px;
+}
+.SharePointImage {
+    width :22px;
+    height: 20px;
+}
+
+.group_right{
+    display: flex;
+}
+.navigation_header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation_header > div {
+    margin: 0 20px 0 0;
+}
+.navigation_header > div > a {
+    color: white;
+}
+.user_tools {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    background-color: white;
+}
+.user_tools > div {
+    margin: 0 5px 0 5px;
+}
+/* ------------------------ */
+
+.header_center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+.header_center_group_left {
+    display: flex;
+}
+.header_center_group_left > div {
+    margin: 0 5px 0 5px; 
+}
+.header_center_group_left > div >a {
+    color: black;
+}
+.header_center_group_right {
+    display: flex;
+}
+.header_icons {
+    width: 14px;
+    height: 14px;
+}
+.header_center_group_right > div {
+    margin: 0 5px 0 5px; 
+}
+
+/* ------------------------ */
+
+.header_bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    background-color: #464648;
+}
+.header_bottom_group_left {
+    display: flex;
+    align-items: center;
+}
+.epam_logo {
+    height: 40px;
+}
+.header_bottom_text {
+    font-size: 30;
+}
+
+/* ------------------------ */
+
+.main {
+    display: flex;
+}
+
+nav {
+    width: 250px;
+    height: 781px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.navigation_1 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.navigation_1 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.navigation_2 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.navigation_3 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.navigation_4 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.navigation_5 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.image_navigation {
+    width: 20px;
+    height: 24px;
+}
+
+/* ------------------------ */
+
+section {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #ececf0;
+}
+.section_header {
+    width: 700px;
+    height: 30px;
+    display: flex;
+    background-color: rgb(29, 190, 190);
+}
+.section_header {
+    display: flex;
+}
+.calendar_days {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+}
+.calendar_cells_line {
+    display: flex;
+    flex-direction: row;
+}
+.calendar_cell {
+    height: 100px;
+    width: 100px;
+    background-color: #464648;
+}
